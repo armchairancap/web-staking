@@ -149,15 +149,18 @@ It can look similar to this.
 
 ### Build Process
 
-The project uses `react-app-rewired` for builds (with [yarn](https://yarnpkg.com/getting-started/install)):
+The project uses `react-app-rewired` for builds:
 
 ```bash
+yarn install
 yarn build
 ```
 
-If you use NPM, you may encounter errors such as [this one](https://github.com/armchairancap/web-staking/issues/2) with NodeJS 23.3.0. Even `yarn build` fails if simple-staking/section.ts is modified to load data from file or URL (issue [3](https://github.com/armchairancap/web-staking/issues/3)).
+Yarn v1.22.21 works.
 
 Build artifacts are output to the `build/` folder.
+
+If you use NPM, you may encounter errors such as [this one](https://github.com/armchairancap/web-staking/issues/2) with NodeJS 23.3.0. Even `yarn build` with v4.6.0 (the new Yarn) fails if simple-staking/section.ts is modified to load data from file or URL (issue [3](https://github.com/armchairancap/web-staking/issues/3)). 
 
 ## Contributing
 
