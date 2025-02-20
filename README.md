@@ -11,6 +11,7 @@
 - [Opinionated web-staking for xx Network](#opinionated-web-staking-for-xx-network)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Scripts](#scripts)
@@ -24,6 +25,13 @@
     - [Guidelines](#guidelines)
   - [License](#license)
   - [Contact](#contact)
+
+## Prerequisites
+
+For decent performance, local chain and explorer are suggested:
+
+- xx Chain in archive mode (2 vCPU, 4 GB RAM, 400 GB SSD)
+- Chain explorer stack (approximately 4 vCPU, 12 GB RAM and 100 GB SSD across several containers/VMs)
 
 ## Installation
 
@@ -41,7 +49,7 @@ To get started with `web-staking`, follow these steps:
    cd web-staking
    ```
 
-3. Install the necessary dependencies:
+3. Install the necessary dependencies (use Yarn [classic stable](https://github.com/yarnpkg/yarn/blob/master/CHANGELOG.md)):
    ```bash
    yarn
    ```
