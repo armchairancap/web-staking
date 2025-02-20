@@ -9,6 +9,14 @@ import BigNumber from 'bignumber.js';
 
 import { ElectedValidator, Voter, seqPhragmen } from './phragmen';
 
+// TODO 
+// Import fetch, get node list and use it to validators from the list obtained from the chain
+// import fetch from 'node-fetch';
+// const nodeListUrl = process.env.NODE_LIST_URL || 'https://raw.githubusercontent.com/armchairancap/web-staking/refs/heads/master/node_list.json';
+// const nodeList = fetch(nodeListUrl).then((response) => response.json());
+// const nodeListDataPromise = nodeList.then((data) => data);
+// nodeListDataPromise.then((data) => console.table(data));
+// console.log('Node list data:', nodeListDataPromise);
 
 interface ChainData {
   // Current information

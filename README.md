@@ -1,4 +1,6 @@
-# web-staking
+# Opinionated web-staking for xx Network
+
+**NOTE:** this repository is experimental and does not provide any additional features. Please use upstream repository for default features.
 
 ## Description
 
@@ -6,7 +8,7 @@
 
 ## Table of Contents
 
-- [web-staking](#web-staking)
+- [Opinionated web-staking for xx Network](#opinionated-web-staking-for-xx-network)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -16,6 +18,7 @@
   - [Development](#development)
     - [Project Structure](#project-structure)
     - [Environment Variables](#environment-variables)
+      - [Node list](#node-list)
     - [Build Process](#build-process)
   - [Contributing](#contributing)
     - [Guidelines](#guidelines)
@@ -29,7 +32,7 @@ To get started with `web-staking`, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/xxfoundation/web-staking.git
+   git clone https://github.com/armchairancap/web-staking
    ```
 
 2. Navigate to the project directory:
@@ -112,15 +115,47 @@ Environment variables are listed in the `.env-example` file. Here are the key va
 REACT_APP_API_URL=wss://rpc.xx.network
 REACT_APP_BACKEND_HOST=xxexplorer-prod.hasura.app
 REACT_APP_WALLET_URL=https://wallet.xx.network
+NODE_LIST_URL=https://raw.githubusercontent.com/armchairancap/web-staking/refs/heads/master/node_list.json
+```
+
+Note that using remote servers means slow(er) performance, but having your own means you need to run an archive chain node and an indexer (`REACT_APP_BACKEND_HOST`), which isn't trivial (needs few hundred GB of SSD capacity and at least two VMs). 
+
+#### Node list
+
+`NODE_LIST_URL` is is the main difference versus upstream - it is supposed to hold a list of whitelisted or blacklisted nodes.
+
+It can look similar to this.
+
+```json
+{
+    "whitelist": [
+        {
+            "POOL": "armchairancap",
+            "ON_CHAIN_ID": "armchairancap-alfa",
+            "WALLET": "6ZtD5PG1AEHiKiVWWGJkLU9jG4wemR7kzwVJVxcRf7pmVNYp",
+            "CMIX_ID": "LZAsnNWehPngLTur0FnORANOzHraOZlg8O/LXXx0BJoC"
+        }
+    ],
+    "blacklist": [
+        {
+            "POOL": "moneyteam",
+            "ON_CHAIN_ID": "moneyteam 01",
+            "WALLET": "6ZsGpqy3LA6HWm2MXS31vqmJnxfaXLvwEgr4Tw6d9yJQNtkM",
+            "CMIX_ID": "3XZ5lNaFv5OgAgXi9O7pZANP/CWyGpbhB9E8QmYM1sMC"
+        }
+    ]
+}
 ```
 
 ### Build Process
 
-The project uses `react-app-rewired` for builds:
+The project uses `react-app-rewired` for builds (with [yarn](https://yarnpkg.com/getting-started/install)):
 
 ```bash
 yarn build
 ```
+
+If you use NPM, you may encounter errors such as [this one](https://github.com/armchairancap/web-staking/issues/2) with NodeJS 23.3.0. Even `yarn build` fails if simple-staking/section.ts is modified to load data from file or URL (issue [3](https://github.com/armchairancap/web-staking/issues/3)).
 
 Build artifacts are output to the `build/` folder.
 
@@ -159,5 +194,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have questions, need support, or wish to discuss features, contact:  
-📧 [devops@xx.network]
+If you want to contribute, create a pull request or submit an issue.
+

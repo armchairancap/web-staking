@@ -1,0 +1,110 @@
+[
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 01",
+        "WALLET": "6ZsGpqy3LA6HWm2MXS31vqmJnxfaXLvwEgr4Tw6d9yJQNtkM",
+        "CMIX_ID": "3XZ5lNaFv5OgAgXi9O7pZANP/CWyGpbhB9E8QmYM1sMC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 02",
+        "WALLET": "6ayHfwRKnqBngfUuqjjSJef1tUyZqeN5sUT3Ex5wT3S3jY4e",
+        "CMIX_ID": "eXRzev8PC/OXj669SLGwy2zQmr6p8uCmPy0oF03AfiwC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 03",
+        "WALLET": "6YqoMdc4Rpg6zCWdq6xDnkEEjFUizArqJmjvduQLSZavXbM8",
+        "CMIX_ID": "Y8w3UyE3OiOUxbmG7s1XLDB2MNoEstdz1GsKJBn2KgMC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 04",
+        "WALLET": "6VzVErFXM3e9FE8uvSU7fwCpMuJW8j8HWMxz62kQwexvxjF6",
+        "CMIX_ID": "jBRTuDxyR8q0hAIN6T24nyqK/cBMOhiITIAeLQpEF5YC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 05",
+        "WALLET": "6aLU7vB5uPgi6LJMeA1YNcqDr5DDpMwTx3NKSWiXo6cG9b18",
+        "CMIX_ID": "NfQj+32d+ZO44mk2z8e3qHQ+g1Wa7x40cuyR0lUoj4kC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 06",
+        "WALLET": "6XqNnjCFEWnXr7xCMgcmCdPy29QdGbMJsBPUqMh5Xq74MEHr",
+        "CMIX_ID": "itrNbIlTQwJfD4SKB6dCQM/qJOpblYZzXgMp10QGKWgC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 07",
+        "WALLET": "6aFM2WJSW3mZTj4wwBRdYV9Ts4rG4HL23SwpTg5JdRbQReQN",
+        "CMIX_ID": "g8N1Fkf9gOCifXl+10LqohyiR5zN5PI94jKQlQutnDgC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 08",
+        "WALLET": "6ZHj5NvRdJsfosoe3upsyaPqzxbwJyWs1PpwLNS83fNW9nBe",
+        "CMIX_ID": "KCxKE6EHI1LeHcWVLU0c7ww8SCBK6PzUyDBPLWx6lpQC"
+    },
+    {
+        "POOL": "moneyteam",
+        "ON_CHAIN_ID": "moneyteam 09",
+        "WALLET": "6ZCXvTYwfE5nw8GEy2erHpRLiqLKFhLz9VAJQrbCgxwRUYjg",
+        "CMIX_ID": "coA/NSJnzDh1pdPAkmWtPpNEvogM0isISv9SS0bs0R0C"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/1 peace",
+        "WALLET": "6VJHDa3n2ZvnHKezZ3PjK9EhH69hmBUTSCVyq1xfThmVfCJq",
+        "CMIX_ID": "UE//ET0+oL8wsnpIey4pfSdV8UYUfH1bUsiMf+tnsF0C"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/2 patience",
+        "WALLET": "6VJHDaN9Wvwmg22AvmVAVzPVVCyPwqxZDL2SY2ZYBC86JrrV",
+        "CMIX_ID": "UE/J+24OVVMOTlFcmCAIuVkgWNen0Sg2ga5DCSdnVtsC"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/3 kindness",
+        "WALLET": "6VJHDa5UyMAGfTrSxaKnbtw8aMhxYcE4wBQUVDgg44FAuGJP",
+        "CMIX_ID": "UE/2dTVOHBcKpYaZpJuj5RazYpnWKRPh7wFuTnPQkoAC"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/4 self-control",
+        "WALLET": "6VJHDae46U3g7nXZ2t7equPCDt1M5DY6P2wph7vBwMfATXDZ",
+        "CMIX_ID": "UE/FXtIlbQkzhfMUgmSsXM/IQoTpMZwudoDdDxpH8IcC"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/5 patience",
+        "WALLET": "6VJHDaN9Wvwmg22AvmVAVzPVVCyPwqxZDL2SY2ZYBC86JrrV",
+        "CMIX_ID": "UE/J+24OVVMOTlFcmCAIuVkgWNen0Sg2ga5DCSdnVtsC"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/6 joy",
+        "WALLET": "6VJHDaQBtxnxyc9Pa9jgb3c7ozMAnneG2PMmFkDszmbesxPQ",
+        "CMIX_ID": "UE/O42UDa2e2soILeVX93kxhNhF1s1iphHpR4bTSdKUC"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/7 goodness",
+        "WALLET": "6VJHDahVCLcToxsnQgr8oJ2wvHywAvXTreBTW3ezcRrNcFN1",
+        "CMIX_ID": "UE/7QH5tDEVDiCojcM7CEc/tALD5v462OqKKfo+DuOAC"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/8 faith",
+        "WALLET": "6VJHDavkx6Xsq5fjaysqapBWEi8dWjtpQyc3Tt4AMUPNGKJR",
+        "CMIX_ID": "UE/DIV4NVhpgLDsPdqoTl5Wyf3pI1RkvSgnGBfNNUdsC"
+    },
+    {
+        "POOL": "united_earth",
+        "ON_CHAIN_ID": "united earth/and other such qualities",
+        "WALLET": "6VJHDawsAjPL6qT5z5psjEMd3neb3UEvcHcEmQTkdog57keF",
+        "CMIX_ID": "UE/VTEXyaaT8WVmTwwhIW1x8Q0R6LKd6eHNvoNk26lMC"
+    }
+]
